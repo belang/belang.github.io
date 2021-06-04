@@ -23,6 +23,7 @@ Language    Chinese-Native    English-Normal    German-Beginner
    :maxdepth: 2
    :caption: Contents:
 
+   resume.rst
 
 
 Indices and tables
