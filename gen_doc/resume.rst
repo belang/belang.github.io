@@ -106,9 +106,18 @@ Work Experience
 
   + achievement:
 
-    1. Form a team to design DSP core with tools chain and IPs.
+    1. Build a team to design DSP core with tools chain and IPs.
+       I built the team from two engineers to a full core and accelerator design team.
+       In the team, there are three engineers on core, three engineers on tools including compiler(based on LLVM), debugger and simulator,
+       and another three engineers on digital IPs.
     2. Realize a high performance DSP for baseband @ TSMC 28nm.
+       This DSP targets LTE L1 digital signal process, such as modulation, layer mapping and DFT.
+       My role was the project manager and architecture.
+       I optimized the micro architecture of the core to import the frequency from 500MHz to 1GHz at 28nm with only one more pipeline stage.
+       I also optimized the data path between SDRAM and core, reducing bus complexity.
+       Compared with last version, new DSP had 100% rise in performance with only 50% rise in power.
     3. Design decoders of Tubor, LDPC, Polar for LTE/5G.
+       In these project, my duty was to optimize the IPs' structure and balance the data exchange with other cores and IPs in the baseband chip.
 
 * July 2016 - July 2018
 
